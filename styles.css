@@ -87,7 +87,6 @@ input {
 
 .nav__logo--title {
   font-size: 24px;
-  margin-left: 10px;
   font-weight: 900;
   color: #243e63;
 }
@@ -650,6 +649,12 @@ footer {
   background-color: rgb(100 21 255);
   color: #fff;
 }
+.footer__logo--title{
+  font-size: 24px;
+  
+  font-weight: 900;
+
+}
 
 .links {
   display: flex;
@@ -835,7 +840,7 @@ hr {
 
     margin: 0 auto ;
   }
-}
+
 
 .steps__list {
   flex-direction: column;
@@ -853,6 +858,7 @@ hr {
 
 #steps .content__wrapper--left {
   align-items: center;
+  }
 }
 
 @media (max-width: 550px) {
